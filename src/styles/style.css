@@ -1,0 +1,291 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Pages*/
+
+h1 {
+  text-align: center;
+  padding-top: 3.5%;
+  background-image: linear-gradient(24deg, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  height: 9vh;
+}
+
+.welcome {
+  height: 100vh;
+  text-align: center;
+}
+
+h2 {
+  margin-top: 80%;
+}
+
+
+/* navbar */
+ nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  height: 60px;
+  /* Styles  */
+  background-image: linear-gradient(180deg, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+  box-shadow: 0px 2px 13px 0px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+ }
+
+
+ .navigation-text {
+  display: none;
+ }
+ 
+
+ .active {
+  margin-top: -5px;
+ }
+
+/* Form */
+
+.form-container {
+  position: absolute;
+  margin-top: 60px;
+  margin-left: 8.6px;
+  padding-top: 19%;
+  width: 95%;
+  height: 50vh;
+  box-shadow: 0px 0px 660px;
+  border-radius: 20px;
+  background-color: white;
+}
+
+.todo-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-form {
+  width: 65%;
+  margin-bottom: 3%;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  background-color: #cbcbcb;
+}
+
+.todo-button {
+  margin-top: 15px;
+  border: none;
+  border-radius: 15px;
+  width: 120px;
+  height: 35px;
+  background-image: linear-gradient(130deg, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+  cursor: pointer;
+
+}
+
+.create-todo {
+  border: none;
+  border-radius: 30px;
+  width: 65px;
+  height: 60px;
+  background-image: linear-gradient(130deg, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+  position:fixed;
+  bottom: 75px;
+  right: 5px;
+  cursor: pointer;
+
+}
+
+.completed {
+  color: darkgreen;
+}
+
+/*Inputs*/
+.newInput {
+  width: 60px;
+}
+
+/*Cards*/
+
+.todo-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 15px 0;
+  width: 100%;
+  padding-bottom: 15%;
+
+}
+
+.todo-list {
+  width: 55%;
+  box-shadow: 0px 0px 3px;
+  margin: 15px 15px;
+  border-radius: 8px;
+}
+
+.title-edit {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3px 0px;
+}
+
+.title-edit h4 {
+  text-align: center;
+}
+
+.icons {
+  display: flex;
+  align-items:  center;
+  margin-bottom: 10px;
+}
+
+.team {
+  margin-bottom: 5px;
+}
+
+.iconsContainer small {
+  margin-left: 5px;
+}
+
+.iconsContainer hr {
+  margin-bottom: 3px;
+
+}
+
+.iconsContainer, .title-edit {
+  padding: 0px 5px;
+}
+
+@media(min-width: 1024px) {
+
+/* pages */
+
+  h1 {
+    padding-top: 0.3%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    width: 90%;
+    margin-left: 6%;
+}
+  
+  .welcome {
+    margin-top: 1%;
+    margin-left: 8%;
+    text-align: left;
+  }
+
+  h2 {
+    margin-top: 0%;
+  }
+
+
+/* Nav */
+
+
+.NavLink {
+  text-decoration: none;
+  color: white;
+}
+
+.navigation-text{
+  display: inherit;
+}
+
+/*navIcons*/
+.navigation-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navigation-img {
+  margin-bottom: 10px;
+}
+/*navIcons*/
+
+nav{
+  width: 120px;
+  height: 100vh;
+  background-image: linear-gradient(250deg, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+  border-bottom: 3px;
+  justify-content: space-around;
+  position: fixed;
+  border-top-right-radius: 35px;
+  border-top-left-radius: 0px;
+  border-bottom-right-radius: 35px;
+}
+
+nav, .navigation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navigation {
+  width: 120px;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+/*Nav*/
+
+/*Content*/
+.content {
+  margin-left: 11%;
+}
+
+
+
+/* Form */
+  .form-container {
+    position: absolute;
+    margin-top: 8%;
+    margin-left: 10%;
+
+    padding-top: 4.3%;
+    width: 50%;
+    height: 50vh;
+    box-shadow: 0px 0px 660px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+  .create-todo {
+    border: none;
+    border-radius: 30px;
+    width: 65px;
+    height: 60px;
+    background-image: linear-gradient(359deg, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    position: fixed;
+    top: -0.5%;
+    right: 5%;
+    cursor: pointer;
+  }
+  
+
+/*Card*/
+
+  .todo-list {
+    width: 22%;
+  }
+
+  .todo-container {
+    width: 90%;
+    padding-bottom: 0%;
+  }
+}
