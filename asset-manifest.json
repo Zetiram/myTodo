@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/myTodo/static/css/main.8974d82b.css",
+    "main.js": "/myTodo/static/js/main.77b7a521.js",
+    "static/media/calendar-icon1.svg": "/myTodo/static/media/calendar-icon1.15b31dcd9180c61ce43feb6f7e87c656.svg",
+    "static/media/logo.svg": "/myTodo/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/team-icon.svg": "/myTodo/static/media/team-icon.3ccd58fdcfd7424c99cf0a2080ac515e.svg",
+    "static/media/calendar-icon2.svg": "/myTodo/static/media/calendar-icon2.eb46d2e2cc152e83d88f8d38c8b3f2ba.svg",
+    "static/media/marketing-pie-icon.svg": "/myTodo/static/media/marketing-pie-icon.7281be169996a522c4b38ccf901091ec.svg",
+    "static/media/code-icon.svg": "/myTodo/static/media/code-icon.f4be2f8ad3e82a2050cbaa22b839b227.svg",
+    "static/media/time-icon.svg": "/myTodo/static/media/time-icon.cfa663182d7d913ece323738b1368734.svg",
+    "static/media/pencil-icon.svg": "/myTodo/static/media/pencil-icon.6b11da87fed30737b5537152be375267.svg",
+    "static/media/add-icon.svg": "/myTodo/static/media/add-icon.c7f6d037d0cd0c987555b2763ac21292.svg",
+    "index.html": "/myTodo/index.html",
+    "static/media/edit-icon1.svg": "/myTodo/static/media/edit-icon1.a70d49b24fa3af31a83f4fba176fed2f.svg",
+    "static/media/check-icon.svg": "/myTodo/static/media/check-icon.510bc5ef4b8350057638b66e1fb98117.svg",
+    "static/media/home-icon.svg": "/myTodo/static/media/home-icon.13215251a408f7a5c59ceaa55cadf67d.svg",
+    "static/media/delete-icon.svg": "/myTodo/static/media/delete-icon.30b1a78ce5452de85020bab5ec5c83b4.svg",
+    "main.8974d82b.css.map": "/myTodo/static/css/main.8974d82b.css.map",
+    "main.77b7a521.js.map": "/myTodo/static/js/main.77b7a521.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8974d82b.css",
+    "static/js/main.77b7a521.js"
+  ]
+}
